@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .zebra{
+            border: 1px dashed black
+        }
+        .big{
+            font-size: 3em;
+        }
+        .mt-45px{
+            margin-top: 45px;
+            display: block !important;
+        }
+        .highlighted{
+            border-bottom: 1px solid #cccccc;
+        }
+    </style>
+</head>
+<body>
+<h1>Curso Javascript Víctor Robles (Udemy) - JQUERY</h1>
+<hr>
+<div>
+    <h2>Selectors</h2>
+    <p id="first" class="no_border">Practicing with selectors...</p>
+    <p id="second" class="no_border">I want to be bigger!</p>
+    <p id="third" class="no_border">Green text</p>
+
+    <p class="zebra">zebra</p>
+    <p class="zebra">zebra</p>
+    <p class="zebra">zebra</p>
+
+    <ul>
+        <li><a href="https://www.google.com" title="a_google">Google</a></li>
+        <li><a href="https://www.wikipedia.com" title="a_wikipedia">Wikipedia</a></li>
+        <li><a href="#" title="a_nowhere">Nowhere</a></li>
+    </ul>
+    <div id="box">
+        <p>Hi, i'm a box.</p>
+        <ul>
+            <li>1</li>
+            <li class="highlighted">2</li>
+        </ul>
+        <span class="highlighted">This is a highlighted span.</span>
+    </div>
+</div>
+<hr>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="selectors.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+1.- A form that is used to add films
+2.- LocalStorage to save them.
+-->
+
+    <form id="film_form">
+        <label for="film_name">
+            Film name:
+        </label>
+        <input id="film_name" type="text">
+        <span id="name_error" style="display: none">
+            This field cannot be empty.
+        </span>
+        <button type="submit">Submit</button>
+        <button id="print_films_btn" type="button">Print stored films.</button>
+    </form>
+<ul id="film_list"></ul>
+<script src="ex_01.js"></script>
+</body>
+</html>
