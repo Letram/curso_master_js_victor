@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../../resources/img/hojas.jpg");
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#global {
+    width: 80%;
+    margin: 1em auto 0;
+    padding: 2em;
+    background: white;
+}
+
+#posts {
+    width: 60%;
+    float: left;
+    font-family: Helvetica, Arial, serif;
+}
+
+.post {
+    padding: 1em;
+}
+
+.post h2 {
+    font-size: 30px;
+}
+
+.post .date {
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
+
+.post p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+.read-more{
+    padding: 15px;
+    background: darkgreen;
+    color: white;
+    text-decoration: none;
+    margin: 0.2em;
+}
